@@ -1,21 +1,12 @@
 # targetmediacentral
 
-Employee Database
+## How to start the application.
 
-A sample Employee Database CRUD application with Node.js, Express and MongoDB.
-
-Requirements
-
-Node
-Express
-MongoDB
-Implementation Instructions
-
-A Sample App with Node.js, Express and MongoDB – Part 1
-A Sample App with Node.js, Express and MongoDB – Part 2
-Contact
-
-Jason Everett
-
-https://github.com/ijason
-http://twitter.com/ijayson66
+In the root directory run next commands:
+* install [Node.js](http://nodejs.org/) if not already installed (this will install npm)
+* npm install -g bower
+* npm install -g gulp
+* npm install
+* bower install
+* tsd install
+* gulp
