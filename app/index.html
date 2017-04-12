@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+    <title>Target Media Central</title>
+
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endinject -->
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="all.css">
+    <!-- endinject -->
+
+    <!--<base href="/">-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+<body ng-cloak ng-controller="AppController as app">
+    <div>
+        <div id="main">
+            <div class="main-view" ui-view></div>
+        </div>
+    </div>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="app-modules.js"></script>
+    <script src="app-controller.js"></script>
+    <script src="app-routes.js"></script>
+    <script src="core/core-module.js"></script>
+    <script src="dashboard/dashboard-module.js"></script>
+    <script src="dashboard/dashboard-routes.js"></script>
+    <script src="dashboard/controllers/dashboard-controller.js"></script>
+    <!-- endinject -->
+</body>
+</html>
